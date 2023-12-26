@@ -27,7 +27,7 @@ int count = 1;
             @Override
             public void onClick(View v) {
                 count++;
-                if ((count&10) == 7){
+                if ((count&7) == 0 ){
                     tv.setText("Boom!");
                 }
                 else{
